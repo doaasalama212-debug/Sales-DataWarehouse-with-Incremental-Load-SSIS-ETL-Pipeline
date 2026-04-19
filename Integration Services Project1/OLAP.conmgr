@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="OLAP"
+  DTS:DTSID="{9406006D-FEF6-453B-9597-43E4E22494EF}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Initial Catalog=Sales_OLAP;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Integration Services Project1-{9406006D-FEF6-453B-9597-43E4E22494EF}Data Connection2;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
